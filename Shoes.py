@@ -1,6 +1,6 @@
 class Shoes:
 
-    def __init__(self, name, price):
+    def __init__(self, name, price):          #die init Funktion wird beim Erstellen eines Objektes aufgrerufen, um den Variablen eines Objektes Standardwerte zuzuweisen. Damit jedoch nicht die Variablen anderer Objekte überschreiben werden, wird die Referenz der zu dem Zeitpunkt erzeugten Objektes an die Init Methode überwiesen. 
         self.name = name
         self.price = float(price)
 
